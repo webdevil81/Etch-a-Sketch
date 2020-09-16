@@ -1,0 +1,19 @@
+h1 {
+   text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.start {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
