@@ -2,6 +2,15 @@ h1 {
    text-align: center;
 }
 
+button {
+    
+}
+
+.button {
+    display: flex; 
+    justify-content: center;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
