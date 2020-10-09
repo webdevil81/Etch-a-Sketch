@@ -38,4 +38,4 @@ function draw() {
 function etchSize() {
     let dimension = prompt('Number between 1 and 100');
     buildEtch(dimension);
-}
+} 
